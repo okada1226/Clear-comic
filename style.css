@@ -169,12 +169,10 @@ padding-top: 20px;
 .detail {
   padding-top: 3px;
   font-size:14.5px;
-  line-height: 26.8px;
+  line-height: 24px;
   letter-spacing: 1.3px;
 
 }
-
-
 
 .back {
   font-family:"Roboto";
@@ -225,8 +223,6 @@ padding-top: 20px;
     .sakuhin-text {
       width:1100px;
     }
-
-
 }
 
 @media only screen and (max-width:1100px) {
@@ -265,17 +261,13 @@ padding-top: 20px;
     .sakuhin-text {
       width:725px;
     }
-
-
 }
-
-
 
 @media screen and (max-width: 400px){
   header {
     width: 320px;
     margin:0 auto;
-    height: 77px;
+    height: 68px;
     padding: 0px 0px;
     padding-bottoms:0;
     margin-bottoms:0;
@@ -286,7 +278,7 @@ padding-top: 20px;
 }
 
     .header-logo p {
-      padding-top: 14px;
+      padding-top: 13.5px;
       line-height: 0px;
       font-size: 20px;
       letter-spacing: 1px;
@@ -294,47 +286,40 @@ padding-top: 20px;
       float:left;
       padding-bottom: 0px;
       margin: 0px;
-
     }
 
 .header-logo p::first-line {
-  line-height: 47px;
+  line-height: 42px;
 }
-
-
-
 
       .header-logo span {
         line-height: 0px;
         float:none;
         padding-bottom: 0px;
         margin-bottom: 0px;
-
       }
 
       .br-sp {
         display:block;
       }
 
-
-
       .header-list {
         display: none;
       }
 
+.drawer{
+  display: block;
+  margin: 0;
+}
 
-      .drawer{
-        display: block;
-        margin: 0;
-      }
-      .drawer-hidden {
-      display: none;
-      }
-      
+   .drawer-hidden {
+     display: none;
+   }
+
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 45px;
+     padding-top: 43px;
      height: 30px;
      width: 26px;
      justify-content: center;
@@ -344,7 +329,7 @@ padding-top: 20px;
      padding-bottom:0;
      margin:0;
    }
-   
+
    .drawer-open span,
    .drawer-open span:before,
    .drawer-open span:after {
@@ -377,7 +362,7 @@ padding-top: 20px;
   top: 0;
   transform: rotate(-45deg);
 }
-   /* メニューのデザイン*/
+
    .drawer-content {
      width: 100%;
      height: 100%;
@@ -393,6 +378,9 @@ padding-top: 20px;
    #drawer-check:checked ~ .drawer-content {
      left: 0;
    }
+
+
+
 
 .drawer-list {
   position: absolute;
@@ -413,6 +401,8 @@ padding-top: 20px;
   padding-top:0;
   margin:0;
   }
+
+
 
 .image1 img {
   padding-top:0;
@@ -469,7 +459,6 @@ padding-top: 20px;
     width:100%;
   }
 
-
   .sakuhin-text {
       padding-top:30px;
       width:320px;
@@ -482,18 +471,18 @@ padding-top: 20px;
       line-height: 0px;
     }
 
-
   .detail {
       margin-top:12.5px;
       margin-bottom: :20px;
       text-align: justify;
       text-justify: inter-ideograph;
       line-height:25px;
-
     }
+
     .br-pc {
       display: none;
     }
+
   .back {
   padding-top:50px;
   padding-left:0px;
